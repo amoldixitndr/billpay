@@ -1,0 +1,28 @@
+{
+	"name": "scraper",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"local:dev": "node index --local=true --env=dev",
+		"deploy:dev": "node index --deploy=true --env=dev"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.3",
+		"chrome-aws-lambda": "^2.1.1",
+		"puppeteer-core": "^2.1.1",
+		"thor-lambda-microservice": "^1.0.29",
+		"user-agents": "^1.0.528"
+	},
+	"devDependencies": {
+		"archiver": "^2.1.0",
+		"bl": "^1.2.1",
+		"body-parser": "^1.18.2",
+		"express": "^4.16.2",
+		"glob": "^7.1.2",
+		"jszip": "^3.1.4"
+	}
+}
