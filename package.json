@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": { 
-		"test": "echo \"Error: 1no test specified\" && exit 1",
+		"test": "echo \"Error: no test specified\" && exit 1",
 		"local:dev": "node index --local=true --env=dev",
 		"deploy:dev": "node index --deploy=true --env=dev"
 	},
